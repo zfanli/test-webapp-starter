@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 // const webpack = require('webpack')
 
 module.exports = {
-  entry: './src/index',
+  entry: './src/index.ts',
   mode: 'development',
   devtool: 'false',
   output: {
@@ -33,7 +33,6 @@ module.exports = {
     }),
   ],
   devServer: {
-    // contentBase: path.join(__dirname, 'public'),
     compress: true,
     port: 3003,
   },
