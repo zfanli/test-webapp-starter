@@ -33,6 +33,7 @@ module.exports = {
     }),
   ],
   devServer: {
+    contentBase: 'public',
     compress: true,
     port: 3003,
   },
